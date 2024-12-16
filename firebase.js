@@ -1,14 +1,15 @@
 // Configuração do Firebase
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  databaseURL: "https://SEU_PROJECT_ID.firebaseio.com",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID",
+  apiKey: "AIzaSyAWhfaY2Adp4YJGwvITWTGHP-7zOLNfiGI",
+  authDomain: "sandalias-retro-9f0c6.firebaseapp.com",
+  databaseURL: "https://sandalias-retro-9f0c6-default-rtdb.firebaseio.com",
+  projectId: "sandalias-retro-9f0c6",
+  storageBucket: "sandalias-retro-9f0c6.appspot.com",
+  messagingSenderId: "786208752798",
+  appId: "1:786208752798:web:193f76bbbf5ac4ef27678f",
+  measurementId: "G-XGVHLX01EB"
 };
-
 // Inicializar Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
@@ -120,4 +121,4 @@ async function exemplo() {
 }
 
 // Chamar a função de exemplo
-exemplo();
+//exemplo();
