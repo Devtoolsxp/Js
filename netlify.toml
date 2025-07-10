@@ -1,0 +1,18 @@
+[build]
+  functions = "netlify/functions"
+  publish = "."
+
+[[redirects]]
+  from = "/jogos"
+  to = "/.netlify/functions/jogos"
+  status = 200
+
+[[redirects]]
+  from = "/provedor"
+  to = "/.netlify/functions/provedor"
+  status = 200
+
+[[redirects]]
+  from = "/rtp"
+  to = "/.netlify/functions/rtp"
+  status = 200
